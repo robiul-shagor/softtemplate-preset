@@ -1,0 +1,139 @@
+{
+ "version": "0.4",
+ "title": "Single Post – Reading",
+ "type": "softtemplate_single",
+ "content": [
+  {
+   "id": "1a2b3d6",
+   "elType": "widget",
+   "settings": {
+    "position": "top"
+   },
+   "elements": [],
+   "widgetType": "soft-template-reading-progress"
+  },
+  {
+   "id": "1a2b3e0",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 24,
+     "column": "24",
+     "row": "24",
+     "isLinked": true
+    },
+    "content_width": "boxed",
+    "boxed_width": {
+     "unit": "px",
+     "size": 760
+    },
+    "padding": {
+     "unit": "px",
+     "top": "40",
+     "right": "20",
+     "bottom": "60",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "1a2b3d7",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-breadcrumbs"
+    },
+    {
+     "id": "1a2b3d8",
+     "elType": "widget",
+     "settings": {
+      "title_html_tag": "h1"
+     },
+     "elements": [],
+     "widgetType": "soft-template-post-title"
+    },
+    {
+     "id": "1a2b3d9",
+     "elType": "widget",
+     "settings": {
+      "view": "inline",
+      "icon_list": [
+       {
+        "_id": "stc1aut",
+        "type": "author"
+       },
+       {
+        "_id": "stc2dat",
+        "type": "date"
+       },
+       {
+        "_id": "stc3rdt",
+        "type": "reading_time",
+        "reading_time_format": "%s min read",
+        "words_per_minute": 200
+       }
+      ]
+     },
+     "elements": [],
+     "widgetType": "soft-template-post-meta"
+    },
+    {
+     "id": "1a2b3da",
+     "elType": "widget",
+     "settings": {
+      "featured_image_size_size": "large"
+     },
+     "elements": [],
+     "widgetType": "soft-template-featured-image"
+    },
+    {
+     "id": "1a2b3db",
+     "elType": "widget",
+     "settings": {
+      "title": "On this page",
+      "headings": [
+       "h2",
+       "h3"
+      ],
+      "collapsible": "yes"
+     },
+     "elements": [],
+     "widgetType": "soft-template-table-of-contents"
+    },
+    {
+     "id": "1a2b3dc",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-post-content"
+    },
+    {
+     "id": "1a2b3dd",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-post-author-box"
+    },
+    {
+     "id": "1a2b3de",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-post-navigation"
+    },
+    {
+     "id": "1a2b3df",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-post-comment"
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {}
+}

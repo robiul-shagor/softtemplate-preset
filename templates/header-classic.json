@@ -1,0 +1,78 @@
+{
+ "version": "0.4",
+ "title": "Classic Header",
+ "type": "softtemplate_header",
+ "content": [
+  {
+   "id": "1a2b3c3",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "row",
+    "flex_gap": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "content_width": "boxed",
+    "flex_justify_content": "space-between",
+    "flex_align_items": "center",
+    "padding": {
+     "unit": "px",
+     "top": "16",
+     "right": "20",
+     "bottom": "16",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "1",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "#E6E6E6"
+   },
+   "elements": [
+    {
+     "id": "1a2b3c0",
+     "elType": "widget",
+     "settings": {
+      "logo_type": "site_default"
+     },
+     "elements": [],
+     "widgetType": "soft-template-logo"
+    },
+    {
+     "id": "1a2b3c1",
+     "elType": "widget",
+     "settings": {
+      "layout": "horizontal",
+      "navmenu_align": "right",
+      "_flex_size": "grow"
+     },
+     "elements": [],
+     "widgetType": "soft-template-nav-menu"
+    },
+    {
+     "id": "1a2b3c2",
+     "elType": "widget",
+     "settings": {
+      "sg_search_style": "popup",
+      "sg_search_button_style": "icon"
+     },
+     "elements": [],
+     "widgetType": "soft-template-search"
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {}
+}

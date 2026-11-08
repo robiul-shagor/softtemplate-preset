@@ -1,0 +1,211 @@
+{
+ "version": "0.4",
+ "title": "Footer with Columns",
+ "type": "softtemplate_footer",
+ "content": [
+  {
+   "id": "1a2b3d3",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "row",
+    "flex_gap": {
+     "unit": "px",
+     "size": 32,
+     "column": "32",
+     "row": "32",
+     "isLinked": true
+    },
+    "content_width": "boxed",
+    "flex_wrap": "wrap",
+    "padding": {
+     "unit": "px",
+     "top": "48",
+     "right": "20",
+     "bottom": "32",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#F7F7F8",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "1",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "#E6E6E6"
+   },
+   "elements": [
+    {
+     "id": "1a2b3cc",
+     "elType": "container",
+     "settings": {
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 10,
+       "column": "10",
+       "row": "10",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 33
+      }
+     },
+     "elements": [
+      {
+       "id": "1a2b3cb",
+       "elType": "widget",
+       "settings": {
+        "title_tag": "div",
+        "show_tagline": "yes",
+        "link_home": "yes"
+       },
+       "elements": [],
+       "widgetType": "soft-template-site-title"
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1a2b3cf",
+     "elType": "container",
+     "settings": {
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 10,
+       "column": "10",
+       "row": "10",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 33
+      }
+     },
+     "elements": [
+      {
+       "id": "1a2b3cd",
+       "elType": "widget",
+       "settings": {
+        "title": "Explore",
+        "header_size": "h4"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1a2b3ce",
+       "elType": "widget",
+       "settings": {
+        "layout": "vertical",
+        "navmenu_align": "left",
+        "dropdown": "none"
+       },
+       "elements": [],
+       "widgetType": "soft-template-nav-menu"
+      }
+     ],
+     "isInner": true
+    },
+    {
+     "id": "1a2b3d2",
+     "elType": "container",
+     "settings": {
+      "flex_direction": "column",
+      "flex_gap": {
+       "unit": "px",
+       "size": 10,
+       "column": "10",
+       "row": "10",
+       "isLinked": true
+      },
+      "width": {
+       "unit": "%",
+       "size": 33
+      }
+     },
+     "elements": [
+      {
+       "id": "1a2b3d0",
+       "elType": "widget",
+       "settings": {
+        "title": "Search",
+        "header_size": "h4"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1a2b3d1",
+       "elType": "widget",
+       "settings": {
+        "sg_search_style": "form",
+        "sg_search_button_style": "icon"
+       },
+       "elements": [],
+       "widgetType": "soft-template-search"
+      }
+     ],
+     "isInner": true
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1a2b3d5",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "row",
+    "flex_gap": {
+     "unit": "px",
+     "size": 20,
+     "column": "20",
+     "row": "20",
+     "isLinked": true
+    },
+    "content_width": "boxed",
+    "flex_justify_content": "center",
+    "padding": {
+     "unit": "px",
+     "top": "16",
+     "right": "20",
+     "bottom": "16",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#F7F7F8",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "1",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "#E6E6E6"
+   },
+   "elements": [
+    {
+     "id": "1a2b3d4",
+     "elType": "widget",
+     "settings": {
+      "text": "Copyright © {year} {site}. All rights reserved.",
+      "align": "center"
+     },
+     "elements": [],
+     "widgetType": "soft-template-copyright"
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {}
+}

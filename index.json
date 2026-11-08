@@ -1,0 +1,131 @@
+{
+ "schema": 1,
+ "name": "SoftTemplates Library",
+ "presets": [
+  {
+   "id": "header-classic",
+   "title": "Classic Header",
+   "type": "softtemplate_header",
+   "category": "header",
+   "tags": [
+    "logo",
+    "menu",
+    "search"
+   ],
+   "description": "Logo on the left, menu in the middle and a search icon on the right.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/header-classic.json",
+   "thumbnail": "thumbnails/header-classic.svg"
+  },
+  {
+   "id": "header-centered",
+   "title": "Centered Header",
+   "type": "softtemplate_header",
+   "category": "header",
+   "tags": [
+    "site title",
+    "tagline",
+    "menu",
+    "centered"
+   ],
+   "description": "Site title and tagline centered above a centered menu.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/header-centered.json",
+   "thumbnail": "thumbnails/header-centered.svg"
+  },
+  {
+   "id": "footer-simple",
+   "title": "Simple Footer",
+   "type": "softtemplate_footer",
+   "category": "footer",
+   "tags": [
+    "copyright",
+    "menu",
+    "back to top"
+   ],
+   "description": "Copyright line and menu on one row, with a floating back-to-top button.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/footer-simple.json",
+   "thumbnail": "thumbnails/footer-simple.svg"
+  },
+  {
+   "id": "footer-columns",
+   "title": "Footer with Columns",
+   "type": "softtemplate_footer",
+   "category": "footer",
+   "tags": [
+    "columns",
+    "about",
+    "menu",
+    "search",
+    "copyright"
+   ],
+   "description": "Three columns (about, links, search) above a centered copyright line.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/footer-columns.json",
+   "thumbnail": "thumbnails/footer-columns.svg"
+  },
+  {
+   "id": "single-post-reading",
+   "title": "Single Post – Reading",
+   "type": "softtemplate_single",
+   "category": "single",
+   "tags": [
+    "post",
+    "blog",
+    "reading",
+    "table of contents"
+   ],
+   "description": "Focused article layout: progress bar, breadcrumbs, title, meta, featured image, table of contents, content, author box, navigation and comments.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/single-post-reading.json",
+   "thumbnail": "thumbnails/single-post-reading.svg"
+  },
+  {
+   "id": "archive-grid",
+   "title": "Blog Archive Grid",
+   "type": "softtemplate_archive",
+   "category": "archive",
+   "tags": [
+    "blog",
+    "archive",
+    "grid",
+    "category"
+   ],
+   "description": "Archive title and description above a three-column grid of posts with pagination.",
+   "version": "1.0.0",
+   "min_plugin_version": "1.1.0",
+   "pro": false,
+   "requires": [
+    "container"
+   ],
+   "file": "templates/archive-grid.json",
+   "thumbnail": "thumbnails/archive-grid.svg"
+  }
+ ]
+}

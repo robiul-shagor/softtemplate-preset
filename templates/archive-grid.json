@@ -1,0 +1,68 @@
+{
+ "version": "0.4",
+ "title": "Blog Archive Grid",
+ "type": "softtemplate_archive",
+ "content": [
+  {
+   "id": "1a2b3e4",
+   "elType": "container",
+   "settings": {
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 24,
+     "column": "24",
+     "row": "24",
+     "isLinked": true
+    },
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "48",
+     "right": "20",
+     "bottom": "64",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "1a2b3e1",
+     "elType": "widget",
+     "settings": {
+      "title_type": "archive_title",
+      "title_tag": "h1",
+      "align": "center"
+     },
+     "elements": [],
+     "widgetType": "soft-template-archive-title"
+    },
+    {
+     "id": "1a2b3e2",
+     "elType": "widget",
+     "settings": {},
+     "elements": [],
+     "widgetType": "soft-template-archive-description"
+    },
+    {
+     "id": "1a2b3e3",
+     "elType": "widget",
+     "settings": {
+      "ae_post_type": "current_loop",
+      "number_of_coloumns": "3",
+      "item_layout": "boxed",
+      "enable_pagination": "yes",
+      "show_media": "yes",
+      "show_date": "yes",
+      "show_excerpt": "yes",
+      "title_tag": "h3"
+     },
+     "elements": [],
+     "widgetType": "soft-template-post-archive"
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {}
+}
